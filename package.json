@@ -1,0 +1,28 @@
+{
+  "name": "macos-emoji-substitutions",
+  "version": "0.1.0",
+  "description": "Generate macOS text substitutions for Slack-style emoji codes (:pizza:)",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js > emoji-substitutions.plist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philippbosch/macos-emoji-substitutions.git"
+  },
+  "keywords": [
+    "emoji",
+    "macos",
+    "substitution"
+  ],
+  "author": "Philipp Bosch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philippbosch/macos-emoji-substitutions/issues"
+  },
+  "homepage": "https://github.com/philippbosch/macos-emoji-substitutions#readme",
+  "dependencies": {
+    "node-emoji": "1.11.0",
+    "plist": "3.0.4"
+  }
+}
